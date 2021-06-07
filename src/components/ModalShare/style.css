@@ -1,0 +1,101 @@
+.modal-active{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+    backdrop-filter: blur(3px);
+    background-color: rgba(0,0,0,.295);
+}
+
+.modal-inative{
+    display:none;
+}
+
+.modal-share-active{
+    width: 300px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 11px;
+    position: fixed;
+    top: 20%;
+    right: 40%;
+    left: 40%;
+    bottom: 50%;
+    display: inline-table;
+    z-index: 999;
+    justify-content: center;
+}
+
+.modal-share-inative{
+    display:none;
+}
+
+.modal-share-conten > a > img{
+    width:40px;
+}
+
+.modal-share-header{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    margin:0px 4px;
+   
+}
+
+
+.modal-share-header > p{
+   text-align:left;
+   width:100%;
+   font-size:18px;
+   font-weight: 600;
+   padding: 0px 6px;
+}
+
+.modal-share-header > img{
+    width:35px;
+    padding:10px;
+    cursor:pointer;
+}
+
+.modal-share-header > img:hover{
+    transform: scale(1.1);
+    
+}
+
+
+.modal-share-content{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    padding:10px;
+    margin:10px 4px;
+}
+
+.modal-share-content > a {
+    width:100%;
+    text-decoration: none;
+    display:flex;
+  
+}
+
+.modal-share-content > a > img{
+    width:40px;
+}
+
+.modal-share-content > a >p {
+    color:black;
+    font-weight: 500; 
+    margin:8px;
+}
+
+.modal-share-content:hover{
+   
+    background:#d8d8d8;
+    transform: scale(1.09);
+}

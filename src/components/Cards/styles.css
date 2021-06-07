@@ -1,0 +1,104 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 268px;
+  height: 200px;
+  min-height: 440px;
+  max-height: 440px;
+  margin: 30px 22px;
+  padding: 0;
+  box-shadow: 1px 2px 6px 2px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.card-img {
+  width: 268px;
+  min-height: 220px;
+}
+
+.card-img > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.card-name {
+  padding: 10px 10px 0px 10px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #f7b803;
+  margin-left: 4px;
+}
+
+.card-local {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #f7b803;
+  padding: 0px 15px;
+}
+
+.card-porte-share {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.card-porte-share > a {
+  display: inherit;
+}
+
+.card-porte-share > div {
+  display: inherit;
+  cursor:pointer;
+}
+
+.card-port-ative {
+  padding: 1px 10px;
+  left: 19px;
+  top: 277px;
+  border-radius: 5px;
+  border: 2px solid rgb(247, 184, 3);
+  color: rgb(247, 184, 3);
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-port-inative {
+  padding: 1px 10px;
+  left: 19px;
+  top: 277px;
+  border-radius: 5px;
+  border: 2px solid rgba(78, 84, 110, 0.5);
+  color: rgba(78, 84, 110, 0.5);
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-descricao {
+  padding: 0px 35px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(247, 184, 3);
+  min-height: 36px;
+  max-height: 36px;
+}
+
+.card-wpp {
+  position: relative;
+  top: 2%;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 2px 15px 2px rgb(0 0 0 / 25%);
+}

@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 80px 50px;
+}
+
+.content-empty {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-empty > p {
+  font-weight: 500;
+}
+
+.content-empty > img {
+  width: 100px;
+  margin: auto;
+}

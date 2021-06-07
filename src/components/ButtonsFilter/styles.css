@@ -1,0 +1,154 @@
+.buttons-filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-buttons-top-filter {
+  list-style: none;
+  display: flex;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.item-buttons-top-filter {
+  background: #b4bacb;
+  padding: 3px 4px 2px 4px;
+  border-radius: 18px 18px 0px 0px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  line-height: 28px;
+  font-size: 16.5px;
+  font-family: Poppins;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.item-buttons-top-filter:focus {
+  background: #99d4ff;
+  color: #424960;
+  
+}
+.item-buttons-top-filter:hover {
+  transform: scale(1.05);
+}
+
+
+.list-buttons-bottom-filter {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.item-buttons-bottom-filter {
+  background: #99d4ff;
+  padding: 10px 0px 10px 10px;
+  width: 50%;
+  text-align: center;
+  color: #424960;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: Poppins;
+  cursor: pointer;
+  position: relative;
+}
+
+.item-buttons-content {
+  border-right: 2.5px solid #afbfd5;
+}
+.item-buttons-content > img {
+  position: relative;
+  right: -10px;
+}
+
+.item-2-buttons-bottom-filter {
+  background: #99d4ff;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  text-align: left;
+  color: #424960;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: Poppins;
+  cursor: pointer;
+  position: relative;
+}
+
+.item-2-buttons-content {
+  padding-left: 30px;
+}
+
+.item-2-buttons-content > img {
+  position: relative;
+  right: -10px;
+}
+
+.sub-list-buttons-bottom-filter {
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  top: 100%;
+  background: #b4bacb;
+  left: 0;
+  overflow:hidden;
+  border-radius: 0px 0px 18px 18px;
+}
+
+
+.sub-item-buttons-bottom-filter {
+  display: flex;
+  padding: 10px;
+}
+
+.sub-item-buttons-bottom-filter:hover{
+  background:#99d4ff;
+
+}
+
+.sub-item-buttons-bottom-filter > button {
+  width: 100%;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-size: 15.5px;
+ 
+}
+
+.sub-list-2-buttons-bottom-filter {
+  list-style: none;
+  position: absolute;
+  width: 80%;
+  padding: 0;
+  top: 100%;
+  background: #b4bacb;
+  left: 0;
+  overflow:hidden;
+  border-radius: 0px 0px 18px 18px;
+  font-size: 15.5px;
+}
+
+@media (max-width: 570px) {
+  .list-buttons-top-filter {
+    width: 100%;
+  }
+  .item-buttons-bottom-filter {
+    width: 50%;
+  }
+  .item-2-buttons-bottom-filter {
+    width: 50%;
+  }
+  .item-2-buttons-content {
+    padding-left: 20px;
+  }
+
+  .sub-list-2-buttons-bottom-filter {
+    width: 100%;
+  }
+}

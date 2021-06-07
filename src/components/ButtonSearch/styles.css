@@ -1,0 +1,33 @@
+.button-search {
+  width: 65%;
+  top: -9%;
+  left: 75%;
+  position: absolute;
+  padding: 13px;
+  border-radius: 100px;
+  border: none;
+  font-size: 18px;
+  background: #f7b803;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  cursor:pointer;
+ 
+}
+
+.button-search:hover {
+  background: #bb8e08;
+ 
+}
+
+.button-search:focus {
+  transform: scale(0.97);
+
+}
+
+
+@media (max-width: 570px) {
+  .button-search {
+    display: none;
+  }
+}
